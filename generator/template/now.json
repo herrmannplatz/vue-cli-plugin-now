@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "vue",
+  "name": "<%= name %>",
   "builds": [
       { "src": "package.json", "use": "@now/static-build" }
   ],
