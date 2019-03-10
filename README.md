@@ -4,30 +4,18 @@
 
 > 🔺 vue-cli 3.x plugin to deploy your vue app using now 2.0
 
-## Getting started
-
-Create or use a vue-cli 3.x project.
+## Installation
 
 ```bash
-vue create my-vue-app
+$ vue add now
 ```
 
-Install the vue-cli-plugin-now plugin
+## Usage
+
+It will take care of creating a `now.json` for you. The next step would be to simply run the `now` command to deploy your app.
 
 ```bash
-npm install --save-dev vue-cli-plugin-now
-```
-
-Invoke the plugin.
-
-```bash
-vue invoke vue-cli-plugin-now
-```
-
-Deploy your vue app.
-
-```bash
-now
+$ now
 ```
 
 ## Contribution
